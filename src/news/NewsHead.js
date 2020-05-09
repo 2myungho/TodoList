@@ -51,7 +51,7 @@ const NewsHead = ({onSelect,category}) => {
                         activeClassName="active"
                         className="categories"
                         exact={c.name === 'all'}
-                        to={c.name === 'all' ? '/news/' : `/news/${c.name}`}
+                        to={c.name === 'all' ? '/TodoList/news/' : `/TodoList/news/${c.name}`}
                         >
                             {c.text}
                         </Categories>

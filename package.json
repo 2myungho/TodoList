@@ -21,13 +21,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "predeploy":"yarn build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "http://2myungh.github.io/TodoList",
+  "homepage": "http://2myungho.github.io/TodoList",
   "browserslist": {
     "production": [
       ">0.2%",
