@@ -1,0 +1,38 @@
+.item{
+    display:flex;
+    align-items: center;
+    padding:20px 15px;
+    .checkBox{
+        display:flex;
+        align-items: center;
+        flex:1;
+        svg{
+            font-size:35px;
+            color:#0f4c82;
+            cursor: pointer;
+        }
+        .text{
+            font-size: 18px;
+            margin-left:15px;
+            font-weight:600;
+            color:#6a6a6a;
+        }
+    }
+    .remove{
+        display:flex;
+        align-items: center;
+        svg{
+            font-size:25px;
+            color:#0f4c82;
+            cursor: pointer;
+            &:hover{
+                color:#fa5252
+            }
+        }
+    }
+
+   /* &:nth-child(even){
+        background:#e9edff;
+    }*/
+
+}
