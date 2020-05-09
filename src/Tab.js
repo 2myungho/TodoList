@@ -21,14 +21,14 @@ const Tab = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="https://2myungho.github.io/TodoList/news" activeStyle={activeStyle} className="TabItem">
+                    <NavLink to="https://2myungho.github.io/TodoList/" activeStyle={activeStyle} className="TabItem">
                         Today News
                     </NavLink>
                 </li>
             </ul>
 
             <Route path="https://2myungho.github.io/TodoList/" component={Todo} />
-            <Route path="https://2myungho.github.io/TodoList/news" component={News}/>
+            <Route path="https://2myungho.github.io/TodoList/" component={News}/>
 
 
         </div>
