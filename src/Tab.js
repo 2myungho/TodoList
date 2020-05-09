@@ -16,19 +16,19 @@ const Tab = () => {
         <div>
             <ul className="TabList">
                 <li>
-                    <NavLink to="https://2myungho.github.io/TodoList/" activeStyle={activeStyle} exact={true} className="TabItem">
+                    <NavLink to="/TodoList/" activeStyle={activeStyle} exact={true} className="TabItem">
                         TodoList
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="https://2myungho.github.io/TodoList/" activeStyle={activeStyle} className="TabItem">
+                    <NavLink to="/TodoList/news" activeStyle={activeStyle} className="TabItem">
                         Today News
                     </NavLink>
                 </li>
             </ul>
 
-            <Route path="https://2myungho.github.io/TodoList/" component={Todo} />
-            <Route path="https://2myungho.github.io/TodoList/" component={News}/>
+            <Route path="/TodoList/" component={Todo} exact={true}/>
+            <Route path="/TodoList/news" component={News}/>
 
 
         </div>
