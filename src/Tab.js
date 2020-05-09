@@ -16,7 +16,7 @@ const Tab = () => {
         <div>
             <ul className="TabList">
                 <li>
-                    <NavLink to="/TodoList" activeStyle={activeStyle} exact={true} className="TabItem">
+                    <NavLink to="/TodoList/" activeStyle={activeStyle} exact={true} className="TabItem">
                         TodoList
                     </NavLink>
                 </li>
@@ -27,7 +27,7 @@ const Tab = () => {
                 </li>
             </ul>
 
-            <Route path="/" component={Todo} exact={true}/>
+            <Route path="/TodoList/" component={Todo} exact={true}/>
             <Route path="/TodoList/news" component={News}/>
 
 
