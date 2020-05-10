@@ -6,6 +6,9 @@ const TemplateBlock = styled.div`
     width:500px;
     margin:150px auto 0;
     position:relative;
+    @media screen and (max-width:768px){
+        width:100%;
+    }
 `
 
 const Template = () => {
